@@ -367,10 +367,6 @@ install_tool() {
         cd Android-Payload-Generator
         chmod +x android-p-g.sh
         sleep 0.5s
-        echo "cd ~/.GX-Tools/Android-Payload-Generator ; bash android-p-g.sh " > $PREFIX/bin/apg
-        sleep 0.5s
-        chmod +x $PREFIX/bin/apg
-        sleep 0.5s
         echo "cd ~/.GX-Tools/Android-Payload-Generator ; bash android-p-g.sh " > $PREFIX/bin/APG
         sleep 0.5s
         chmod +x $PREFIX/bin/APG
@@ -607,7 +603,7 @@ main_menu() {
     sleep 1s 
     echo ''
     sleep 1s
-    echo -e $LGreen "The Tool Was Installation Successfull You Can Start It By "APG" or "apg" or "android-p-g" Commands Or Uninstall By "apg-uninstall" commaned (^_^) " 
+    echo -e $LGreen "The Tool Was Installation Successfull You Can Start It By "APG" or "android-p-g" Commands Or Uninstall By "apg-uninstall" commaned (^_^) " 
     exit
 }
 main_menu
